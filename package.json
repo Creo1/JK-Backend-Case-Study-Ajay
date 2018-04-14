@@ -1,0 +1,16 @@
+{
+  "name": "qgsuper_web",
+  "version": "1.0.0",
+  "description": "MongoDB, Express, React, Redux, Node, express-session and auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/dilipsr/qgsuper_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dilipsr/qgsuper_web#readme"
+}
