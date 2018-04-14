@@ -5,7 +5,7 @@
 # refer this link for more details
 https://medium.com/of-all-things-tech-progress/5-steps-to-build-a-rest-api-in-node-js-with-mongodb-e1f2113a39bd
 
-
+# To know all library please go to package.json file
 
 
 #### To goto server folder
@@ -14,7 +14,7 @@ https://medium.com/of-all-things-tech-progress/5-steps-to-build-a-rest-api-in-no
 
 ### to install all dependencies (make sure you are in server folder)  
 
-  $ npm install
+  $ npm install (it will install dependencies, whichever are package.json file)
 
 
 
