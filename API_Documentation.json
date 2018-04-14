@@ -1,0 +1,160 @@
+{
+	"id": "6ec4c722-0230-992e-e0de-465d6c0f8e44",
+	"name": "JK_API",
+	"description": "",
+	"order": [
+		"82150d38-ac68-c924-aeb6-d43a493f2508",
+		"b67d08aa-9bc1-a251-6eb4-fa101e4b11c8",
+		"b0a942c7-e54a-1e4b-13cc-051c09f58433",
+		"a1f0eb63-a91d-2477-3ef9-a67fa05a25f9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1523702785728,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "82150d38-ac68-c924-aeb6-d43a493f2508",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1YWNhNGM1ZWY5MGVkZTAxMTgxYTY2NjIiLCJ1c2VyTmFtZSI6ImFiY2RAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMDUkNVRCbXZNZU1icUM3M1N4ZGJRdkVyT29JRzB4VHZOdjJhcmdDNkprVElmSW9vRHB2Vy5HM3kiLCJpbmR1c3RyeU5hbWUiOiJTYWxvb24iLCJpYXQiOjE1MjMyMDcyNjIsImV4cCI6MTUyMzIxNjI2Mn0.PpwS-k876LWVqruIDXQqlxh7fve5jejg0BbyhtBVMmU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1YWNhNGM1ZWY5MGVkZTAxMTgxYTY2NjIiLCJ1c2VyTmFtZSI6ImFiY2RAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMDUkNVRCbXZNZU1icUM3M1N4ZGJRdkVyT29JRzB4VHZOdjJhcmdDNkprVElmSW9vRHB2Vy5HM3kiLCJpbmR1c3RyeU5hbWUiOiJTYWxvb24iLCJpYXQiOjE1MjMyMDcyNjIsImV4cCI6MTUyMzIxNjI2Mn0.PpwS-k876LWVqruIDXQqlxh7fve5jejg0BbyhtBVMmU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/auth/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6ec4c722-0230-992e-e0de-465d6c0f8e44",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/auth/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1523702792449,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\":\"Ajay\",\n\t\"lastName\":\"G\",\n\t\"email\":\"ddsfsdfd@gmail.com\",\n\t\"password\":\"test1234\",\n\t\"gender\":\"male\",\n\t\"companyName\":\"ABC pvt\",\n\t\"jobTitle\":\"Software developer\",\n\t\"university\":\"MMMUT\",\n\t\"skill\":\"Node js\"\n}"
+		},
+		{
+			"id": "a1f0eb63-a91d-2477-3ef9-a67fa05a25f9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/auth/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6ec4c722-0230-992e-e0de-465d6c0f8e44",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/auth/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1523702978958,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\n\"email\":\"abcde@gmail.com\",\n\"password\":\"test1234\"\n\n}"
+		},
+		{
+			"id": "b0a942c7-e54a-1e4b-13cc-051c09f58433",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1YWNhNGM1ZWY5MGVkZTAxMTgxYTY2NjIiLCJ1c2VyTmFtZSI6ImFiY2RAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMDUkNVRCbXZNZU1icUM3M1N4ZGJRdkVyT29JRzB4VHZOdjJhcmdDNkprVElmSW9vRHB2Vy5HM3kiLCJpbmR1c3RyeU5hbWUiOiJTYWxvb24iLCJpYXQiOjE1MjMyMDcyNjIsImV4cCI6MTUyMzIxNjI2Mn0.PpwS-k876LWVqruIDXQqlxh7fve5jejg0BbyhtBVMmU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1YWNhNGM1ZWY5MGVkZTAxMTgxYTY2NjIiLCJ1c2VyTmFtZSI6ImFiY2RAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMDUkNVRCbXZNZU1icUM3M1N4ZGJRdkVyT29JRzB4VHZOdjJhcmdDNkprVElmSW9vRHB2Vy5HM3kiLCJpbmR1c3RyeU5hbWUiOiJTYWxvb24iLCJpYXQiOjE1MjMyMDcyNjIsImV4cCI6MTUyMzIxNjI2Mn0.PpwS-k876LWVqruIDXQqlxh7fve5jejg0BbyhtBVMmU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/data",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6ec4c722-0230-992e-e0de-465d6c0f8e44",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/data",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1523702878116,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"string\":\"Ajay\",\n\t\"number\":2\n}"
+		},
+		{
+			"id": "b67d08aa-9bc1-a251-6eb4-fa101e4b11c8",
+			"headers": "Content-Type: application/json\nAuthorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1YWQxZGMxZWVjYzc5NjE3NmM4ZjYzZTkiLCJlbWFpbCI6ImZkZmRAZ21haWwuY29tIiwiZmlyc3ROYW1lIjoiQWpheSIsImxhc3ROYW1lIjoiRyIsImlhdCI6MTUyMzcwMjgxNCwiZXhwIjoxNTIzNzExODE0fQ.wYp-8HgSKLeTLXpYzTomdKUDvcFYnciSG0iZ8yM_hZM\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1YWQxZGMxZWVjYzc5NjE3NmM4ZjYzZTkiLCJlbWFpbCI6ImZkZmRAZ21haWwuY29tIiwiZmlyc3ROYW1lIjoiQWpheSIsImxhc3ROYW1lIjoiRyIsImlhdCI6MTUyMzcwMjgxNCwiZXhwIjoxNTIzNzExODE0fQ.wYp-8HgSKLeTLXpYzTomdKUDvcFYnciSG0iZ8yM_hZM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users/5ad1dc1eecc796176c8f63e9",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "6ec4c722-0230-992e-e0de-465d6c0f8e44",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/users/5ad1dc1eecc796176c8f63e9",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1523702849687,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\":\"abc@gmail.com\",\n\t\"password\":\"test1234\"\n\n\n}"
+		}
+	]
+}
